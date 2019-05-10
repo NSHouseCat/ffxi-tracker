@@ -25,7 +25,7 @@ class BaseMythic extends Component {
 			<div>
 				<h1>Base Mythic</h1>
 				<p>{ requiredAlexandrite }</p>
-				<Progress percent={this.getProgress(this.props.alexandrite, requiredAlexandrite)} status="success" />
+				<Progress animated percent={this.getProgress(this.props.alexandrite, requiredAlexandrite)} status="success" />
 				{this.props.alexandrite}
 			</div>
 		)
