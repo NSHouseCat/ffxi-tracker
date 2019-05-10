@@ -16,7 +16,7 @@ class TrackingList extends Component {
 			<div>
 				<h1>FFXI Tracker</h1>
 				<ul>
-					<li><BaseMythic /></li>
+					<li><BaseMythic alexandrite={6000}/></li>
 				</ul>
 			</div>
 		)
